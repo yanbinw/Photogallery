@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #333;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.navLink:hover {
+  border-color: white;
+}

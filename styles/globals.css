@@ -24,3 +24,69 @@ a {
     background: black;
   }
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Optional: Add some space between the images */
+.photo-gallery img {
+  margin-bottom: 16px;
+}
+
+/* Responsive font size */
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* Use relative units for components */
+.container {
+  width: 100%;
+  max-width: 1200px; /* Adjust this value based on your design */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.photo-gallery img:hover {
+  cursor: pointer;
+}
+
+.photo-gallery img.clicked {
+  transform: scale(1.1) rotate(10deg);
+  transition: transform 0.3s ease-in-out;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #333;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  border-color: white;
+}

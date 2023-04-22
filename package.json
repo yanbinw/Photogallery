@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "classnames": "^2.3.2",
+    "magic-grid": "^3.2.4",
     "next": "13.3.0",
+    "next-images": "^1.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
